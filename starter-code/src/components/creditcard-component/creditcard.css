@@ -1,0 +1,27 @@
+.credit-card-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.credit-card {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.company {
+    height: 50px;
+}
+
+.card-number{
+    font-size: 1.7em;
+    height: 70px;
+}
+
+.expires {
+    font-size: 0.8em;
+    height: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+}

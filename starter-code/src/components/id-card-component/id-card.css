@@ -1,4 +1,19 @@
-.id-card {
-    border: 2px solid black;
-    border-radius: 10px;
+
+
+.id-card img {
+    width: 150px;
+    height: 110px;
 }
+
+.id-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px !important;
+
+}
+
+/* .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
