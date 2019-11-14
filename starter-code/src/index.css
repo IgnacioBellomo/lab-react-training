@@ -18,3 +18,17 @@ code {
   font-weight: bold;
   text-align: center;
 }
+
+.driver-card {
+  background-color: blue;
+  color: white;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.the-card {
+  display: flex!important;
+  justify-content: space-around!important;
+  flex-direction: row!important;
+
+}
