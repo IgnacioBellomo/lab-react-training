@@ -4,6 +4,7 @@ import Greetings from './components/greetings-component/greetings';
 import Random from './components/random-component/random'
 import BoxColor from './components/boxcolor-component/boxcolor'
 import CreditCard from './components/creditcard-component/creditcard'
+import Rating from './components/rating-component/Rating';
 
 class App extends Component {
   render() {
@@ -50,6 +51,34 @@ class App extends Component {
           owner="Maxence Bouret"
           bgColor="#11aa99"
           color="white" />
+          <br/>
+        <CreditCard 
+          type="Master Card"
+          number="0123456789010995"
+          expirationMonth={3}
+          expirationYear={2021}
+          bank="N26"
+          owner="Maxence Bouret"
+          bgColor="#eeeeee"
+          color="#222222" />
+          <br/>
+        <CreditCard 
+          type="Visa"
+          number="0123456789016984"
+          expirationMonth={12}
+          expirationYear={2019}
+          bank="Name of the Bank"
+          owner="Firstname Lastname"
+          bgColor="#ddbb55"
+          color="white" />
+          <br/>
+          <h1>Ratings</h1>
+          <Rating>0</Rating>
+          <Rating>1.49</Rating>
+          <Rating>1.5</Rating>
+          <Rating>3</Rating>
+          <Rating>4</Rating>
+          <Rating>5</Rating>
       </div>
     );
   }
