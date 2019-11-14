@@ -7,6 +7,8 @@ import CreditCard from './components/creditcard-component/creditcard'
 import Rating from './components/rating-component/Rating';
 import DriverCard from './components/drivercard-component/DriverCard';
 import LikeButton from './components/likebutton-component/LikeButton';
+import ClickablePicture from './components/click-pic-component/ClickablePicture';
+import Dice from './components/dice-component/Dice';
 
 class App extends Component {
   render() {
@@ -104,8 +106,30 @@ class App extends Component {
             <br/>
             <br/>
             <h1>Like buttons</h1>
-                  <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton />
-
+            <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton /><LikeButton /> <LikeButton />
+            <br/>
+            <h1>Clickable pictures, put your shades on!</h1>
+            <ClickablePicture
+              img="/img/persons/maxence.png"
+              imgClicked="/img/persons/maxence-glasses.png" />
+                          <ClickablePicture
+              img="/img/persons/maxence.png"
+              imgClicked="/img/persons/maxence-glasses.png" />
+                          <ClickablePicture
+              img="/img/persons/maxence.png"
+              imgClicked="/img/persons/maxence-glasses.png" />
+                          <ClickablePicture
+              img="/img/persons/maxence.png"
+              imgClicked="/img/persons/maxence-glasses.png" />
+                          <ClickablePicture
+              img="/img/persons/maxence.png"
+              imgClicked="/img/persons/maxence-glasses.png" />
+                          <ClickablePicture
+              img="/img/persons/maxence.png"
+              imgClicked="/img/persons/maxence-glasses.png" />
+            <br/>
+            <h1>Roll the dice by clicking</h1>
+              <Dice/><Dice/><Dice/><Dice/><Dice/><Dice/>
             
 
       </div>
